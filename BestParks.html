@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Rollercoasters.html">ROLLERCOASTERS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="Rollercoasters.html"
+              >Home</a
+            >
+            <a class="nav-link active" aria-current="page" href="BestParks.html"
+              >Best Theme Parks in America</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <img
+      src="images/SixFlags.jpeg"
+      class="img-fluid"
+      alt="Six Flags Aerial View"
+    />
+
+    <h1 class="text-center mt-3 mb-3">Theme Parks</h1>
+
+    <div class="container mb-5 fs-5">
+      <p>
+        In order to experience the amazing rollercoasters mentioned on the
+        homepage, and other great rollercoasters, you will likely have to visit
+        a theme park. Below are 5 great theme parks in the United State that
+        will give you a great rollercoaster experience.
+      </p>
+    </div>
+
+    <h3 class="text-center mb-3">5 Great American Theme Parks</h3>
+    <table class="table table-striped table-dark table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Park Name</th>
+          <th scope="col">Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Cedar Point</td>
+          <td>Sandusky, Ohio</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Busch Gardens</td>
+          <td>Williamsburg, Virginia</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Six Flags Magic Mountain</td>
+          <td>Valencia, California</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Silver Dollar City</td>
+          <td>Branson, Missouri</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Kings Island</td>
+          <td>Mason, Ohio</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 class="text-center mt-5 mb-5">
+      What about you? Do you have a favorite rollercoaster or theme park? Let me
+      know!
+    </h3>
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label"
+        >Email address:</label
+      >
+      <input type="email" class="form-control" id="exampleFormControlInput1" />
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Favorite Theme Parks or Rollercoasters:</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="2"
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-outline-info">Submit</button>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
